@@ -1,0 +1,367 @@
+
+/* All pages style */
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #ffffff;
+    background-position-x:center;
+}
+
+nav{
+    padding: 0px 50px 0 80px;
+}
+
+nav a{
+    font-size: 16px;
+    color: #271f09;
+    text-decoration: none;
+    width: 11%;
+    text-align: center;
+    font-family: Manrope;
+    src: url(../fonts/Manrope-ExtraLight.ttf);
+    display: inline-block;
+    border-radius: 100px;
+    margin: 0% 5% 5% 5%;
+}
+
+header img{
+    margin-top: 1%;
+    
+}
+
+/* .wrapper{
+    align-content: center;
+    padding: 18px 0px 25px 0px;
+    margin: 0px 50px 5px 50px
+} */
+
+
+a:hover{
+    color: #f77b5f;
+}
+
+.logo{
+    width: 4%;
+    padding-top: 11px;
+}
+
+
+a{
+    font-family: Manrope;
+    src: url(../fonts/Manrope-Light.ttf);
+    color: #FE4A23;
+}
+
+
+footer{
+    font-family: Manrope;
+    src: url(../fonts/Manrope-Regular.ttf);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: smaller;
+    color: #FCF9EB;
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+/* Home page styles */
+
+.homeBanner{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homeBanner h1{
+    font-family: Manrope;
+    src: url(../fonts/Manrope-ExtraLight.ttf);
+    font-weight: lighter;
+    color: #FE4A23;
+    position: relative;
+    top: 10%;
+    width: 55%;
+    margin: auto;
+    text-align: center;
+    font-size: 550%;
+    padding: 65px 0 0 0;
+}
+
+.homebanner2 h1{
+    padding-top: 0;
+    font-family: AppleGaramond;
+    src: url(../fonts/AppleGaramond-LightItalic.ttf);
+    font-style: italic;
+    font-weight: lighter;
+    color: #FE4A23;
+    margin: auto;
+    position: relative;
+    font-size: 550%;
+}
+
+.polaroid{
+    width: 33%;
+    align-content: center;
+    margin-left: 35%;
+    margin-top: -3%;
+}
+
+main{
+    line-height: 136%;
+    overflow: hidden;
+}
+
+
+.col p{
+    font-family: Manrope;
+    src: url(../fonts/Manrope-Light.ttf);
+    text-align: center;
+    font-size: 100%;
+    color: #FE4A23;
+    width: 63%;
+    height: 10%;
+    padding: 30px 110px 50px 670px;
+    text-align: center;
+}
+
+.instagram{
+    text-align: center;
+    border: solid #FE4A23;
+    padding: 10px;
+    border-radius: 100px;
+    border-width: 2px;
+    margin-left: 46.3%;
+    margin-bottom: 200%;
+}
+
+.together p{
+    font-family: AppleGaramond;
+    src: url(../fonts/AppleGaramond-Light.ttf);
+    font-size: 50px;
+    text-align: center;
+    color: #1d1d1d;
+}
+
+
+.mail{
+    font-family: Manrope;
+    src: url(../fonts/Manrope-Light.ttf);
+    text-align: center;
+    color: #1d1d1d;
+    padding-bottom: 25px;
+}
+
+/* About styles */
+
+h1{
+    text-align: center;
+    position: relative;
+    font-size: 360%;
+    text-shadow: 250px;
+    padding-top: 30px;
+    font-family: Manrope;
+    src: url(../fonts/Manrope-ExtraLight.ttf);
+    color: rgb(191, 191, 191);
+    }
+
+#sectionOne{
+    background-color: #ffffff;
+    padding-left: 50px;
+}
+
+#sectionOne p{
+    font-family: Manrope;
+    src: url(../fonts/Manrope-ExtraLight.ttf);
+    padding: 78px 170px 1px 170px;
+    text-align: center;
+    color: #FE4A23;
+}
+
+#sectionOne h1{
+    font-family: AppleGaramond;
+    src: url(../fonts/AppleGaramond-LightItalic.ttf);
+    font-weight: lighter;
+    font-style: italic;
+    color: #FE4A23;
+    padding-bottom: 0;
+}
+
+#sectionOne h2{
+    font-family: Manrope;
+    src: url(../fonts/Manrope-ExtraLight.ttf);
+    font-weight: lighter;
+    padding: 0 170px 1px 170px;
+    text-align: center;
+    color: #FE4A23;
+}
+
+.logoAnatomy{
+    background-color: #ffffff;
+    padding-left: 15%;
+    width: 83%;
+}
+
+.myPics{
+    background-color: #ffffff;
+    width: 103%;
+}
+
+
+/* Contact styles */
+
+.contact{
+    border: none;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 136%;
+    overflow: hidden;
+}
+
+.contact h1{
+    font-family: AppleGaramond;
+    src: url(../fonts/AppleGaramond-LightItalic.ttf);
+    font-weight: lighter;
+    font-style: italic;
+    color: #FE4A23;
+    padding-top: 70px;
+}
+
+form{
+    float: left;
+    width: 45%;
+    font-family: Manrope;
+    src: url(../fonts/Manrope-Light.ttf);
+    font-size: 150%;
+}
+
+label{
+    display: inline;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #FE4A23;
+    border-radius: 100px;
+    margin: 8px 0 21px 0;
+    font-size: 50%;
+}
+
+select{
+    background-color: white;
+    border: 2px solid #FE4A23;
+    border-radius: 100px;
+    font-size: 16px;
+    padding: 8px 18px;
+    width: 100%;    
+    margin: 8px 0 21px 0;
+}
+
+input[type=submit]{
+    background-color: #FE4A23;
+    color: white;
+    border: 0;
+    border-radius: 100px;
+    font-size: 100%;
+    padding: 12px 20px 12px 20px;
+}
+
+input[type=submit]:hover{
+    background-color: rgba(161, 161, 161, 0.899);
+}
+
+iframe{
+    float: right;
+    width: 45%;
+}
+
+
+/* Work styles */
+
+.gallery{
+    width: 25%;
+    float: left;
+    padding: 40px 19px 19px 19px;
+}
+
+.gallery:hover{
+    background-color: #ffffff;
+    transition: 0.7s;
+    transform: scale(103%)
+}
+
+.gallery img{
+    width: 100%;
+}
+
+.gallery p{
+    text-align: center;
+    font-size: 100%;
+    margin: 0;
+    color: black;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+/* Primo styles */
+
+.primo{
+    width: 100%;
+}
+
+/* Noizze styles */
+
+.noizze{
+    align-content: center;
+    width: 100%;
+}
+
+/* Tea 52 styles */
+.tea52{
+    width: 100%;
+    align-items: center;
+}
+
+#pattern{
+    width: 60%;
+    margin-left: 20%;
+}
+
+/* Heirloom Seeds styles */
+
+.heirloom{
+    width: 100%;
+    align-items: center;
+}
+
+
+/* Girl Called Shoe styles */
+
+.shoe{
+    width: 100%;
+    align-items: center;
+}
+
+/* Dynamics Success styles */
+
+.lovefood{
+    width: 100%;
+    align-items: center;
+}
+
+/* Feels */
+
+.feels{
+    width: 100%;
+    align-items: center;
+}
+
